@@ -1,5 +1,7 @@
 # Dynamic Cards
 
+![Dynamic Cards Preview](https://raw.githubusercontent.com/milindkusahu/Dynamic-Cards/refs/heads/main/dynamic-card-demo.png)
+
 Dynamic Cards is a React application that allows users to create and manage user cards dynamically. Users can add new cards with personal information and remove existing cards as needed.
 
 ## 🚀 Features
