@@ -9,7 +9,9 @@ const Card = ({ user, handleRemove, id }) => {
         <div className="image w-[3vw] h-[3vw] rounded-full bg-zinc-200 overflow-hidden">
           <img className="w-full h-full object-cover" src={image} alt={name} />
         </div>
-        <h1 className="mt-1 text-xl font-semibold">{name}</h1>
+        <h1 className="mt-1 text-xl font-semibold text-center leading-none">
+          {name}
+        </h1>
         <h4 className="opacity-40 text-xs font-semibold">{email}</h4>
         <p className=" mt-1 text-center text-xs font-semibold leading-1 tracking-tight">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quos
