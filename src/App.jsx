@@ -3,7 +3,14 @@ import Cards from "./components/Cards";
 import Form from "./components/Form";
 
 function App() {
-  const [users, setUsers] = useState([]);
+  const [users, setUsers] = useState([
+    {
+      name: "Milind Kumar Sahu",
+      email: "milindsahu2000@gmail.com",
+      image:
+        "https://lh3.googleusercontent.com/a/ACg8ocIPduTsm795IjcuxZOZ3erZ6ChW7BvpE1WvFy_vuul2OqkTiA_M=s288-c-no",
+    },
+  ]);
 
   console.log(users);
 

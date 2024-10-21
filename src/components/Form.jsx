@@ -16,19 +16,19 @@ function Form({ handleFormSubmitData }) {
           {...register("name")}
           className="rounded-md px-2 py-1 text-base font-semibold outline-none"
           type="text"
-          placeholder="name"
+          placeholder="Name"
         />
         <input
           {...register("email")}
           className="rounded-md px-2 py-1 text-base font-semibold outline-none"
           type="text"
-          placeholder="email"
+          placeholder="Email"
         />
         <input
           {...register("image")}
           className="rounded-md px-2 py-1 text-base font-semibold outline-none"
           type="text"
-          placeholder="image url"
+          placeholder="Image URL"
         />
         <input
           className="rounded-md px-5 py-1 bg-blue-500 text-white font-semibold"
